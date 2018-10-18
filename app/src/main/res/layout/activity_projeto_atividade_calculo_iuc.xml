@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ProjetoAtividadeCalculoIUC">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:layout_width="188dp"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/buttonleft1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/buttonleft1" />
+
+            <RadioButton
+                android:id="@+id/buttonleft2"
+                android:layout_width="192dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/buttonleft2" />
+
+            <RadioButton
+                android:id="@+id/buttonleft3"
+                android:layout_width="196dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/buttonleft3" />
+
+            <RadioButton
+                android:id="@+id/buttonleft4"
+                android:layout_width="191dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/buttonleft4" />
+
+        </RadioGroup>
+
+        <RadioGroup
+            android:layout_width="193dp"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/buttonright1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/buttonright1" />
+
+            <RadioButton
+                android:id="@+id/buttonright2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/buttonright2" />
+
+            <RadioButton
+                android:id="@+id/buttonright3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/buttonright3" />
+
+            <RadioButton
+                android:id="@+id/buttonright4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/buttonright4" />
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/calcularIUC"
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/calcularIUC" />
+
+        <TextView
+            android:id="@+id/valor"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/valor" />
+    </LinearLayout>
+
+</LinearLayout>
